@@ -15,7 +15,9 @@ If a download fails, the message tells you how to download the file by hand.
 """
 import io
 import re
+import shutil
 import sys
+import threading
 import zipfile
 
 import pandas as pd
@@ -236,6 +238,7 @@ def build_case_index(embedding_function=None, cases: pd.DataFrame = None):
     if not config.CASES_CSV.exists() or "case_id" not in pd.read_csv(config.CASES_CSV, nrows=1).columns:
         cases[keep].to_csv(config.CASES_CSV, index=False)
 
+    (config.DATA_DIR / "chroma_ready.flag").unlink(missing_ok=True)
     client = chromadb.PersistentClient(path=str(config.CHROMA_DIR))
     try:
         client.delete_collection("case_studies")
@@ -270,19 +273,35 @@ def build_case_index(embedding_function=None, cases: pd.DataFrame = None):
         collection.add(ids=ids[i:i + batch], documents=docs[i:i + batch], metadatas=metas[i:i + batch])
         done = min(i + batch, len(docs))
         print(f"    {done}/{len(docs)} chunks indexed", end="\r")
+    (config.DATA_DIR / "chroma_ready.flag").write_text("ok")      # marks a FINISHED build
     print(f"\n  Vector database ready -> {config.CHROMA_DIR}")
+
+
+_INDEX_LOCK = threading.Lock()
+READY_FLAG = config.DATA_DIR / "chroma_ready.flag"
+
+
+def index_ready() -> bool:
+    return READY_FLAG.exists() and (config.CHROMA_DIR / "chroma.sqlite3").exists()
 
 
 def ensure_case_index():
     """Used on Streamlit Cloud: if there is no vector database yet, build a small one from
     data/cases.csv (short summaries, ~2,000 chunks, 1-2 minutes). Locally, data_prep.py has
-    already built the full index from the complete case texts, so this does nothing."""
-    if (config.CHROMA_DIR / "chroma.sqlite3").exists() or not config.CASES_CSV.exists():
-        return False
-    cases = pd.read_csv(config.CASES_CSV, dtype=str).fillna("")
-    cases["full_summary"] = ""            # cloud index uses the short summaries only
-    build_case_index(cases=cases)
-    return True
+    already built the full index from the complete case texts, so this does nothing.
+
+    A lock makes sure only ONE build runs at a time (two browser sessions starting together
+    used to build in parallel and break the database). The file data/chroma_ready.flag is
+    written only when a build has FINISHED; without it, any old index is deleted and rebuilt."""
+    with _INDEX_LOCK:
+        if index_ready() or not config.CASES_CSV.exists():
+            return False
+        if config.CHROMA_DIR.exists():
+            shutil.rmtree(config.CHROMA_DIR, ignore_errors=True)   # remove a half-built index
+        cases = pd.read_csv(config.CASES_CSV, dtype=str).fillna("")
+        cases["full_summary"] = ""            # cloud index uses the short summaries only
+        build_case_index(cases=cases)
+        return True
 
 
 # ---------------------------------------------------------------------------

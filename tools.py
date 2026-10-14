@@ -11,6 +11,7 @@ Tools 1, 2, 3 and 5 are deterministic. Tool 4 is hybrid RAG: embeddings + cosine
 AND BM25 keyword search, fused with Reciprocal Rank Fusion (retrieval.py).
 The LLM decides WHICH tool to call and WHEN (the ReAct loop in agent.py).
 """
+import threading
 from functools import lru_cache
 
 import pandas as pd
@@ -33,16 +34,22 @@ def _tasks() -> pd.DataFrame:
 _collection = None
 
 
+_collection_lock = threading.Lock()
+
+
 def _case_collection(embedding_function=None):
+    """Open the vector database once per server process. The lock stops two users (or two
+    parallel tool calls) from opening/building it at the same moment."""
     global _collection
-    if _collection is None:
-        import chromadb
-        from data_prep import ensure_case_index, get_embedding_function
-        ensure_case_index()          # builds a small index from cases.csv if none exists (cloud)
-        client = chromadb.PersistentClient(path=str(config.CHROMA_DIR))
-        _collection = client.get_collection(
-            "case_studies", embedding_function=embedding_function or get_embedding_function()
-        )
+    with _collection_lock:
+        if _collection is None:
+            import chromadb
+            from data_prep import ensure_case_index, get_embedding_function
+            ensure_case_index()          # builds a small index from cases.csv if none exists (cloud)
+            client = chromadb.PersistentClient(path=str(config.CHROMA_DIR))
+            _collection = client.get_collection(
+                "case_studies", embedding_function=embedding_function or get_embedding_function()
+            )
     return _collection
 
 

@@ -79,7 +79,7 @@ with st.sidebar:
 if not config.TASKS_CSV.exists() or not (config.CHROMA_DIR.exists() or config.CASES_CSV.exists()):
     st.error("Data not prepared yet. In the terminal run:  python data_prep.py  then restart the app.")
     st.stop()
-if not (config.CHROMA_DIR / "chroma.sqlite3").exists():
+if not (config.DATA_DIR / "chroma_ready.flag").exists():
     with st.spinner("🛠️ First start: building the case-study search index (about 1-2 minutes)..."):
         from data_prep import ensure_case_index
         ensure_case_index()

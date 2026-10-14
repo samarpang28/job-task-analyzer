@@ -5,3 +5,4 @@ data/raw/
 data/chroma/
 data/bm25_corpus.pkl
 deploy_upload/
+data/chroma_ready.flag
