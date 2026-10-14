@@ -1,0 +1,7 @@
+anthropic>=0.40
+google-genai>=1.40
+chromadb>=0.5
+datasets>=2.19
+pandas>=2.0
+requests>=2.31
+streamlit>=1.50

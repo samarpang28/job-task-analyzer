@@ -1,0 +1,108 @@
+role,onet_code,onet_title,task_id,task,task_type,importance,ai_usage_pct,automation_share,augmentation_share
+Credit Analyst,13-2041.00,Credit Analysts,1250,Analyze credit data and financial statements to determine the degree of risk involved in extending credit or lending money.,Core,4.9,0.0042110193131724,,
+Credit Analyst,13-2041.00,Credit Analysts,1254,"Complete loan applications, including credit analyses and summaries of loan requests, and submit to loan committees for approval.",Core,4.76,0.0017460323981446,,
+Credit Analyst,13-2041.00,Credit Analysts,1255,"Generate financial ratios, using computer programs, to evaluate customers' financial status.",Core,4.55,0.0,,
+Credit Analyst,13-2041.00,Credit Analysts,1251,Prepare reports that include the degree of risk involved in extending credit or lending money.,Core,4.55,0.0,,
+Credit Analyst,13-2041.00,Credit Analysts,1259,"Analyze financial data, such as income growth, quality of management, and market share to determine expected profitability of loans.",Core,4.53,0.0,,
+Credit Analyst,13-2041.00,Credit Analysts,1257,"Compare liquidity, profitability, and credit histories of establishments being evaluated with those of similar establishments in the same industries and geographic locations.",Core,4.25,0.0,,
+Credit Analyst,13-2041.00,Credit Analysts,21164,Contact customers to collect payments on delinquent accounts.,Supplemental,4.0,0.0,,
+Credit Analyst,13-2041.00,Credit Analysts,1252,"Evaluate customer records and recommend payment plans, based on earnings, savings data, payment history, and purchase activity.",Supplemental,3.69,0.0,,
+Credit Analyst,13-2041.00,Credit Analysts,1256,Review individual or commercial customer files to identify and select delinquent accounts for collection.,Supplemental,3.31,0.0,,
+Credit Analyst,13-2041.00,Credit Analysts,1253,Confer with credit association and other business representatives to exchange credit information.,Supplemental,3.08,0.0,,
+Credit Analyst,13-2041.00,Credit Analysts,1258,Consult with customers to resolve complaints and verify financial and credit transactions.,Core,3.07,0.0,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,18565,"Confer with customers by telephone or in person to provide information about products or services, take or enter orders, cancel accounts, or obtain details of complaints.",Core,4.67,0.0313258753784782,0.36,0.64
+Customer Support Agent,43-4051.00,Customer Service Representatives,2578,"Keep records of customer interactions or transactions, recording details of inquiries, complaints, or comments, as well as actions taken.",Core,4.53,0.0,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2580,Check to ensure that appropriate changes were made to resolve customers' problems.,Core,4.39,0.0,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2581,Contact customers to respond to inquiries or to notify them of claim investigation results or any planned adjustments.,Core,4.22,0.001951447974397,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2579,"Resolve customers' service or billing complaints by performing activities such as exchanging merchandise, refunding money, or adjusting bills.",Supplemental,4.19,0.0114005644820035,0.39,0.61
+Customer Support Agent,43-4051.00,Customer Service Representatives,2583,"Determine charges for services requested, collect deposits or payments, or arrange for billing.",Core,4.18,0.0,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2584,"Complete contract forms, prepare change of address records, or issue service discontinuance orders, using computers.",Core,4.1,0.0,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2582,Refer unresolved customer grievances to designated departments for further investigation.,Core,4.07,0.0017460323981446,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2587,Review insurance policy terms to determine whether a particular loss is covered by insurance.,Supplemental,4.05,0.0190009408033392,0.22,0.78
+Customer Support Agent,43-4051.00,Customer Service Representatives,2586,Solicit sales of new or additional services or products.,Supplemental,3.87,0.0,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2589,Compare disputed merchandise with original requisitions and information from invoices and prepare invoices for returned goods.,Supplemental,3.64,0.0,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2585,"Obtain and examine all relevant information to assess validity of complaints and to determine possible causes, such as extreme weather conditions that could increase utility bills.",Supplemental,3.63,0.0,,
+Customer Support Agent,43-4051.00,Customer Service Representatives,2591,"Recommend improvements in products, packaging, shipping, service, or billing methods and procedures to prevent future problems.",Supplemental,3.16,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18861,"Interpret and explain human resources policies, procedures, laws, standards, or regulations.",Core,4.66,0.0103734866007419,0.19,0.81
+HR Recruiter,13-1071.00,Human Resources Specialists,18859,Hire employees and process hiring-related paperwork.,Core,4.5,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,21097,Administer employee benefit plans.,Supplemental,4.45,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18864,"Maintain current knowledge of Equal Employment Opportunity (EEO) and affirmative action guidelines and laws, such as the Americans with Disabilities Act (ADA).",Core,4.44,0.0034920647962893,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18869,"Schedule or administer skill, intelligence, psychological, or drug tests for current or prospective employees.",Supplemental,4.34,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18866,"Prepare or maintain employment records related to events, such as hiring, termination, leaves, transfers, or promotions, using human resources management system software.",Core,4.33,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18852,"Address employee relations issues, such as harassment allegations, work complaints, or other employee concerns.",Core,4.31,0.0017460323981446,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18855,Conduct reference or background checks on job applicants.,Supplemental,4.28,0.0018487401862708,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18868,Review employment applications and job orders to match applicants with job requirements.,Core,4.18,0.0077030841094618,0.51,0.49
+HR Recruiter,13-1071.00,Human Resources Specialists,18860,"Inform job applicants of details such as duties and responsibilities, compensation, benefits, schedules, working conditions, or promotion opportunities.",Core,4.18,0.0015406168218923,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18871,"Select qualified job applicants or refer them to managers, making hiring recommendations when appropriate.",Core,4.16,0.0022595713387754,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18870,Schedule or conduct new employee orientations.,Core,4.14,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18876,"Review and evaluate applicant qualifications or eligibility for specified licensing, according to established guidelines and designated licensing codes.",Supplemental,4.11,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18863,"Maintain and update human resources documents, such as organizational charts, employee handbooks or directories, or performance evaluation forms.",Core,4.0,0.0028758180675324,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18856,Confer with management to develop or implement personnel policies or procedures.,Core,3.99,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18874,"Evaluate recruitment or selection criteria to ensure conformance to professional, statistical, or testing standards, recommending revisions, as needed.",Supplemental,3.95,0.0090382853551019,0.35,0.65
+HR Recruiter,13-1071.00,Human Resources Specialists,18857,Contact job applicants to inform them of the status of their applications.,Core,3.91,0.0179738629220776,0.59,0.41
+HR Recruiter,13-1071.00,Human Resources Specialists,18854,Conduct exit interviews and ensure that necessary employment termination paperwork is completed.,Core,3.9,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18862,"Interview job applicants to obtain information on work history, training, education, or job skills.",Core,3.89,0.0046218504656771,1.0,0.0
+HR Recruiter,13-1071.00,Human Resources Specialists,18865,"Perform searches for qualified job candidates, using sources such as computer databases, networking, Internet recruiting resources, media advertisements, job fairs, recruiting firms, or employee referrals.",Core,3.86,0.0084220386263449,0.44,0.56
+HR Recruiter,13-1071.00,Human Resources Specialists,18867,"Provide management with information or training related to interviewing, performance appraisals, counseling techniques, or documentation of performance issues.",Core,3.86,0.0016433246100185,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18853,Analyze employment-related data and prepare required reports.,Core,3.81,0.0015406168218923,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18872,"Advise management on organizing, preparing, or implementing recruiting or retention programs.",Core,3.73,0.001951447974397,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18858,Develop or implement recruiting strategies to meet current or anticipated staffing needs.,Core,3.71,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18873,"Coordinate with outside staffing agencies to secure temporary employees, based on departmental needs.",Supplemental,3.57,0.0,,
+HR Recruiter,13-1071.00,Human Resources Specialists,18875,Evaluate selection or testing techniques by conducting research or follow-up activities and conferring with management or supervisory personnel.,Supplemental,3.5,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1841,Record patients' medical information and vital signs.,Core,4.74,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,20413,Administer medications to patients and monitor patients for reactions or side effects.,Core,4.7,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1839,"Maintain accurate, detailed reports and records.",Core,4.69,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1840,"Monitor, record, and report symptoms or changes in patients' conditions.",Core,4.61,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1855,"Provide health care, first aid, immunizations, or assistance in convalescence or rehabilitation in locations such as schools, hospitals, or industry.",Core,4.56,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1843,"Consult and coordinate with healthcare team members to assess, plan, implement, or evaluate patient care plans.",Core,4.48,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1846,Direct or supervise less-skilled nursing or healthcare personnel or supervise a particular unit.,Core,4.46,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1845,"Monitor all aspects of patient care, including diet and physical activity.",Core,4.44,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1861,"Perform administrative or managerial functions, such as taking responsibility for a unit's staff, budget, planning, or long-range goals.",Supplemental,4.42,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1844,"Order, interpret, and evaluate diagnostic tests to identify and assess patient's condition.",Supplemental,4.41,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1859,"Prescribe or recommend drugs, medical devices, or other forms of treatment, such as physical therapy, inhalation therapy, or related therapeutic procedures.",Supplemental,4.4,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1860,"Direct or coordinate infection control programs, advising or consulting with specified personnel about necessary precautions.",Supplemental,4.38,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1850,"Instruct individuals, families, or other groups on topics such as health education, disease prevention, or childbirth and develop health improvement programs.",Core,4.35,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1851,"Prepare rooms, sterile instruments, equipment, or supplies and ensure that stock of supplies is maintained.",Supplemental,4.35,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1842,Modify patient treatment plans as indicated by patients' responses and conditions.,Core,4.34,0.0024649869150277,0.0,1.0
+Registered Nurse,29-1141.00,Registered Nurses,1857,Conduct specified laboratory tests.,Core,4.31,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1848,Observe nurses and visit patients to ensure proper nursing care.,Core,4.23,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1849,"Assess the needs of individuals, families, or communities, including assessment of individuals' home or work environments, to identify potential health or safety problems.",Core,4.19,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1854,"Administer local, inhalation, intravenous, or other anesthetics.",Supplemental,4.17,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1862,Provide or arrange for training or instruction of auxiliary personnel or students.,Supplemental,4.09,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1865,"Work with individuals, groups, or families to plan or implement programs designed to improve the overall health of communities.",Core,4.08,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1847,Prepare patients for and assist with examinations or treatments.,Core,4.06,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1863,Refer students or patients to specialized health resources or community agencies furnishing assistance.,Supplemental,3.96,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1856,"Perform physical examinations, make tentative diagnoses, and treat patients en route to hospitals or at disaster site triage centers.",Supplemental,3.95,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1864,Consult with institutions or associations regarding issues or concerns relevant to the practice and profession of nursing.,Supplemental,3.85,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1852,Inform physician of patient's condition during anesthesia.,Supplemental,3.49,0.0,,
+Registered Nurse,29-1141.00,Registered Nurses,1866,Engage in research activities related to nursing.,Supplemental,3.42,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14642,"Identify, analyze, and document problems with program function, output, online screen, or content.",Core,4.7,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14641,"Document software defects, using a bug tracking system, and report defects to software developers.",Core,4.68,0.0789822890690155,0.48,0.52
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14640,"Develop testing programs that address areas such as database impacts, software scenarios, regression testing, negative testing, error or bug retests, or usability.",Core,4.52,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14638,"Design test plans, scenarios, scripts, or procedures.",Core,4.35,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14648,Document test procedures to ensure replicability and compliance with standards.,Core,4.3,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14653,Provide feedback and recommendations to developers on software usability and functionality.,Core,4.27,0.5787583860909006,0.21,0.79
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14652,"Install, maintain, or use software testing programs.",Core,4.26,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14639,Test system modifications to prepare for implementation.,Core,4.21,0.0651167376719841,0.61,0.39
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14644,Create or maintain databases of known test defects.,Core,4.15,0.0074976685332095,0.49,0.51
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14649,"Develop or specify standards, methods, or procedures to determine product quality or release readiness.",Core,4.12,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14643,Monitor bug resolution efforts and track successes.,Core,4.12,0.0053408049825602,1.0,0.0
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14650,Update automated test scripts to ensure currency.,Core,4.09,0.0051353894063079,1.0,0.0
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14646,"Participate in product design reviews to provide input on functional requirements, product designs, schedules, or potential problems.",Core,4.03,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14645,Plan test schedules or strategies in accordance with project scope or delivery dates.,Core,4.0,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14654,Monitor program performance to ensure efficient and problem-free operations.,Core,3.97,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14655,"Conduct software compatibility tests with programs, hardware, operating systems, or network environments.",Core,3.88,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14651,Investigate customer problems referred by technical support.,Core,3.81,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14647,"Review software documentation to ensure technical accuracy, compliance, or completeness, or to mitigate risks.",Core,3.71,0.2774137357287528,0.39,0.61
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14658,"Identify program deviance from standards, and suggest modifications to ensure compliance.",Core,3.7,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14661,"Perform initial debugging procedures by reviewing configuration files, logs, or code pieces to determine breakdown source.",Core,3.66,0.646031987313534,0.57,0.43
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14659,Design or develop automated testing tools.,Core,3.6,0.0335854467172536,0.56,0.44
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14656,Install and configure recreations of software production environments to allow testing of software performance.,Core,3.45,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14657,Collaborate with field staff or customers to evaluate or diagnose problems and recommend possible solutions.,Core,3.34,0.0029785258556585,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14660,Coordinate user or third-party testing.,Core,3.34,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14662,Visit beta testing sites to evaluate software performance.,Core,3.33,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14664,Conduct historical analyses of test results.,Core,3.29,0.0,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,14663,Evaluate or recommend software for testing or bug tracking.,Core,3.25,0.0261904859721703,0.31,0.69
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,21680,"Modify existing software to correct errors, allow it to adapt to new hardware, or to improve its performance.",,,2.678619114330201,0.62,0.38
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,21681,"Recommend purchase of equipment to control dust, temperature, or humidity in area of system installation.",,,0.0024649869150277,,
+Software QA Tester,15-1253.00,Software Quality Assurance Analysts and Testers,21682,"Store, retrieve, and manipulate data for analysis of system capabilities and requirements.",,,0.1011671713042656,0.37,0.63
